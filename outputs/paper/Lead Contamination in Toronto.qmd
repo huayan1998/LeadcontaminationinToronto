@@ -1,0 +1,60 @@
+---
+title: "Lead Contamination in Toronto's Drinking Water"
+author: "Name"
+thanks: "Code and data are available at: LINK."
+date: "January 24, 2024"
+format: pdf
+number-sections: true
+bibliography: references.bib
+---
+
+# Abstract
+
+This report analyzes lead contamination in Toronto's drinking water using data from the city's Residential Lead Testing Program. The analysis reveals that while most samples meet safety standards, some contain high lead levels that exceed regulatory limits. The time series shows sporadic contamination events but no clear trend over time. The results indicate ongoing risks, highlighting the need for continued monitoring, infrastructure improvements, and public policies to ensure safe drinking water for all residents.
+
+# Table of Contents
+- [Abstract](#abstract)
+- [1: Introduction](#1-introduction)
+- [2: Data](#2-data)
+  - [2.1 Data Collection](#21-data-collection)
+- [3: Results](#3-results)
+  - [3.1 Distribution of Lead Levels](#31-distribution-of-lead-levels)
+  - [3.2 Time Series of Lead Levels](#32-time-series-of-lead-levels)
+- [4: Conclusion](#4-conclusion)
+- [References](#references)
+
+# List of Figures
+- Figure 1: Distribution of Lead Levels
+- Figure 2: Time Series Plot
+
+# 1: Introduction
+
+Lead contamination in drinking water is a serious public health issue. Even low levels of lead exposure can cause health problems, especially in children and pregnant women. In recent years, major lead contamination events in cities like Flint, Michigan have drawn increased attention to the risks of lead in drinking water systems. While lead levels in Toronto's drinking water are relatively low, lead service pipes still supply water to thousands of older homes. Recent testing by residents has revealed elevated lead levels in some households. 
+In this paper, we will first describe the data's source, ethical considerations, and the statistical context that led to its collection. Subsequently, we will analyze and visualize the data using various R packages, including ggplot2 (Wickham 2016) for creating informative graphs and knitr (Xie 2023) for generating tables. Our analysis will focus on identifying trends, patterns, and potential areas of concern related to lead levels in Toronto's tap water. Finally, we will discuss the implications of our findings and provide recommendations for addressing lead contamination.
+
+
+# 2: Data
+In this Data Section 2, I'll go over the data gathering and processing technique, as well as a thorough dive into the data itself. First of all, (Table??) gives us a glance of the facts.
+
+## 2.1 Data collection
+
+The data used in this analysis was obtained through the City of Toronto's Residential Lead Testing Program, which is a non-regulated initiative offered to residents free of charge for assessing the presence of lead in their tap drinking water. Residents have the option to acquire and return a water sample kit at any of the six Toronto Public Health locations. Although each kit includes comprehensive instructions on how to collect an accurate tap water sample, it's important to note that the City of Toronto has no influence over the specific method or location chosen by residents for sample collection.
+The data in question includes several key variables:
+1. **Sample Number**: Laboratory sample ID.
+2. **Sample Date**: Date when the sample was collected by the resident.
+3. **Partial Postal Code**: First three digits of the postal code for privacy.
+4. **Lead Amount (ppm)**: Measured in parts per billion (ppb) and micrograms per liter (µg/l).
+It's important to note that this data serves as a valuable resource for assessing the presence and levels of lead in Toronto's tap water, with a focus on public health and safety. The City of Toronto provides lead test results to all residents who participate in the program, helping to ensure that drinking water meets the established regulatory standards
+
+
+# 3: Results
+
+
+
+\newpage
+
+# References
+
+
+
+
